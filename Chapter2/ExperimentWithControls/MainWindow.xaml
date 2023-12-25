@@ -20,39 +20,42 @@
         <!--Row 0-->
         <Label Content="Wpisz liczbę" FontSize="18" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBlock x:Name="number" Grid.Column="1" Text="Liczba" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
-        <RadioButton Content="1" Margin="200,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <RadioButton Content="2" Margin="230,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <RadioButton Content="3" Margin="265,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <RadioButton Content="4" Margin="200,69,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <RadioButton Content="5" Margin="230,69,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <RadioButton Content="6" Margin="265,69,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <RadioButton Content="1" Margin="200,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="2" Margin="230,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="3" Margin="265,49,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="4" Margin="200,69,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="5" Margin="230,69,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="6" Margin="265,69,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
 
         <TextBox x:Name="numberTextBox" FontSize="18" Margin="10,49,10,10" Text="0" Width="120" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="numberTextBox_TextChanged" PreviewTextInput="numberTextBox_PreviewTextInput"/>
 
         <!--Row 1-->
-        <ListBox x:Name="myListBox" Grid.Row="1" Margin="10">
+        <ListBox x:Name="myListBox" Grid.Row="1" Margin="10" SelectionChanged="myListBox_SelectionChanged">
             <ListBoxItem Content="1"/>
             <ListBoxItem Content="2"/>
             <ListBoxItem Content="3"/>
             <ListBoxItem Content="4"/>
             <ListBoxItem Content="5"/>
         </ListBox>
-        <ComboBox x:Name="readOnlyCombobox" Grid.Row="1" Grid.Column="1" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="readOnlyCombobox" Grid.Row="1" Grid.Column="1" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectionChanged="readOnlyCombobox_SelectionChanged">
             <ListBoxItem Content="1"/>
             <ListBoxItem Content="2"/>
             <ListBoxItem Content="3"/>
             <ListBoxItem Content="4"/>
             <ListBoxItem Content="5"/>
         </ComboBox>
-        <ComboBox x:Name="editableCombobox" Grid.Column="1" Grid.Row="1" IsEditable="True" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="270,10,0,0">
+        <ComboBox x:Name="editableCombobox" Grid.Column="1" Grid.Row="1" IsEditable="True" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="270,10,0,0" PreviewTextInput="numberTextBox_PreviewTextInput" TextBoxBase.TextChanged="editableCombobox_TextChanged">
             <ListBoxItem Content="1"/>
             <ListBoxItem Content="2"/>
             <ListBoxItem Content="3"/>
             <ListBoxItem Content="4"/>
             <ListBoxItem Content="5"/>
         </ComboBox>
-        
-        
+
+        <!--Row 2-->
+        <Slider x:Name="smallSlider" AutoToolTipPlacement="TopLeft" Maximum="5" Minimum="1" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" ValueChanged="smallSlider_ValueChanged" Width="120"/>
+        <Slider x:Name="bigSlider" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="10" Grid.Row="2" VerticalAlignment="Center" AutoToolTipPlacement="TopLeft" Minimum="111111111" Maximum="999999999" Value="878765674" ValueChanged="bigSlider_ValueChanged"/>
+
 
 
 
