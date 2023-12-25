@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickACardUI", "PickACardUI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuysGiveCash", "GuysGiveCash\GuysGiveCash.csproj", "{349D1FFB-F7CD-4305-8223-8E2291DCA233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuysGiveCashGame", "GuysGiveCashGame\GuysGiveCashGame.csproj", "{67BEDAEA-4C9D-4E60-9B47-0A80CF7DF292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{349D1FFB-F7CD-4305-8223-8E2291DCA233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{349D1FFB-F7CD-4305-8223-8E2291DCA233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{349D1FFB-F7CD-4305-8223-8E2291DCA233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BEDAEA-4C9D-4E60-9B47-0A80CF7DF292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BEDAEA-4C9D-4E60-9B47-0A80CF7DF292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BEDAEA-4C9D-4E60-9B47-0A80CF7DF292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BEDAEA-4C9D-4E60-9B47-0A80CF7DF292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
