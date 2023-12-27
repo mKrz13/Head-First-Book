@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbilityScoreTester", "AbilityScoreTester\AbilityScoreTester.csproj", "{14033620-EBA5-4B17-A61C-EA5BFE217888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbilityScoreTester", "AbilityScoreTester\AbilityScoreTester.csproj", "{14033620-EBA5-4B17-A61C-EA5BFE217888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElephantsReference", "ElephantsReference\ElephantsReference.csproj", "{7F1A41BE-6233-4B36-B868-05C30A2F3064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{14033620-EBA5-4B17-A61C-EA5BFE217888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14033620-EBA5-4B17-A61C-EA5BFE217888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14033620-EBA5-4B17-A61C-EA5BFE217888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1A41BE-6233-4B36-B868-05C30A2F3064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1A41BE-6233-4B36-B868-05C30A2F3064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1A41BE-6233-4B36-B868-05C30A2F3064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1A41BE-6233-4B36-B868-05C30A2F3064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
