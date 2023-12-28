@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OscarDamageCalculator", "OscarDamageCalculator\OscarDamageCalculator.csproj", "{83D1785B-4EED-4E81-B4A0-4E6FD06B83C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OscarDamageCalculatorUI", "OscarDamageCalculatorUI\OscarDamageCalculatorUI.csproj", "{A8450586-370A-4889-B203-9B2A3D074FC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{83D1785B-4EED-4E81-B4A0-4E6FD06B83C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D1785B-4EED-4E81-B4A0-4E6FD06B83C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D1785B-4EED-4E81-B4A0-4E6FD06B83C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8450586-370A-4889-B203-9B2A3D074FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8450586-370A-4889-B203-9B2A3D074FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8450586-370A-4889-B203-9B2A3D074FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8450586-370A-4889-B203-9B2A3D074FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

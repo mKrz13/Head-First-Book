@@ -19,29 +19,6 @@
                 swordDamage.SetFlaming(key == '2' || key == '3');
 
                 Console.WriteLine($"\nRzut: {roll}, punkty obrażeń: {swordDamage.Damage}\n");
-
-
-                /*
-                if (pressedKey == '0')
-                {
-                    swordDamage.SetMagic(false);
-                }
-                else if (pressedKey == '1')
-                {
-                    swordDamage.SetMagic(true);
-                }
-                else if (pressedKey == '2')
-                {
-                    swordDamage.SetMagic(false);
-                }
-                else if (pressedKey == '3')
-                {
-                    swordDamage.SetMagic(true);
-                }
-                else
-                {
-                    return;
-                }*/
             }
 
         }
