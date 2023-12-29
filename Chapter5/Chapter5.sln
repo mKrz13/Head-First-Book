@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OscarDamageCalculator", "OscarDamageCalculator\OscarDamageCalculator.csproj", "{83D1785B-4EED-4E81-B4A0-4E6FD06B83C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OscarDamageCalculator", "OscarDamageCalculator\OscarDamageCalculator.csproj", "{83D1785B-4EED-4E81-B4A0-4E6FD06B83C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OscarDamageCalculatorUI", "OscarDamageCalculatorUI\OscarDamageCalculatorUI.csproj", "{A8450586-370A-4889-B203-9B2A3D074FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OscarDamageCalculatorUI", "OscarDamageCalculatorUI\OscarDamageCalculatorUI.csproj", "{A8450586-370A-4889-B203-9B2A3D074FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiLo", "HiLo\HiLo.csproj", "{ED0622BC-30F4-4097-805C-D40993EDFBA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A8450586-370A-4889-B203-9B2A3D074FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8450586-370A-4889-B203-9B2A3D074FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8450586-370A-4889-B203-9B2A3D074FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0622BC-30F4-4097-805C-D40993EDFBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0622BC-30F4-4097-805C-D40993EDFBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0622BC-30F4-4097-805C-D40993EDFBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0622BC-30F4-4097-805C-D40993EDFBA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
